@@ -1,0 +1,14 @@
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.textarea{
+    height: 220px;
+}
+.services, .team, .projects, .Testimonials{
+text-align: center;
+}
