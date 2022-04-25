@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+button{
+    /* width: 242px;
+    height: 63px; */
+    border-radius: 1.5px;
+    color: #fff;
+   
+}
+.greyBtn{
+    background-color: #00000033;
+    border: 3px solid #fff;
+
+}
+.greyBtn:hover{
+    background: rgba(255,255,255,.1);
+    transition: all .3s;
+}
+
+.yellowBtn{
+    color: #fff;
+    background-color: #f1d204;
+    border:1px solid #f1d204;
+}
+.yellowBtn:hover{
+    background-color: #6a4d8a;
+    border: 1px solid #6a4d8a;
+    transition: all .3s;
+}
+button:hover{
+    cursor: pointer;
+}
+.cleanSlickPixelperfectBtns{
+    margin: auto;
+}
+.cleanSlickPixelperfectBtns button{
+    border-radius: 2px;
+    margin: 15px;
+}
+.lateastNews-details h4 a{
+    
+    color: #545454;
+}
+
+.lateastNews-details h4 a:hover{
+    transition: .2s;
+    color: #f1d204;
+}
+.latestNews button{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.read-more{
+    color: #f1d204;
+}
+.read-more:hover{
+    transition: .2s;
+    color: #6a4d8a;
+}
+.first-footer a:hover{
+    color: #6a4d8a;
+    transition: .2s;
+    text-decoration: none;
+}
+.first-footer a{
+    color: #8c979e;
+}

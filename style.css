@@ -1,7 +1,9 @@
-
-
-a{
-    text-decoration: none;
+@import url("buttons.css");
+@import url("preloader.css");
+@import url("slider.css");
+@import url("navbarSec.css");
+body{
+    font-family: 'Poppins', sans-serif;
 }
 li{
     list-style-type: none;
@@ -9,6 +11,307 @@ li{
 .textarea{
     height: 220px;
 }
-.services, .team, .projects, .Testimonials{
+.cleanSlickPixelperfect, .services, .team, .projects, .Testimonials,.projectsClientsCoffes,.latestNews{
 text-align: center;
 }
+
+.about{
+    /* height: 484px; */
+   
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+.about h2{
+    padding-bottom: 5%;
+    color: #545454;
+}
+.about p{
+    text-align: center;
+    color: #8c9597;
+}
+.progressBar{
+    width: 100%;
+    text-align: center;
+}
+.progressBar aside{
+   
+    margin: 2%;
+    display: inline-block;
+    
+    
+}
+.progressBar span{
+    
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    
+    border-radius: 50%;
+    
+}
+.progress1{
+    position: relative;
+    border-bottom: 1px solid rgb(241, 139, 109);
+}
+.progress1 span{
+    
+    position: absolute;
+    bottom: -3px;
+    left: 60%;
+    border: 1px solid rgb(241, 139, 109);
+    background-color: rgb(241, 139, 109);
+}
+.progress2{
+    position: relative;
+    border-bottom:1px solid rgb(241, 210, 4);
+}
+.progress2 span{
+    position: absolute;
+    bottom: -3px;
+    left: 82%;
+    border: 1px solid rgb(241, 210, 4);
+    background-color: rgb(241, 210, 4);
+}
+.progress3{
+    position: relative;
+    border-bottom:1px solid rgb(106, 77, 138);
+}
+.progress3 span{
+    position: absolute;
+    bottom: -3px;
+    left: 86%;
+    border: 1px solid rgb(106, 77, 138);
+    background-color: rgb(106, 77, 138);
+}
+.projects{
+    /* height: 579px; */
+    padding-top: 4.5%;
+    padding-bottom: 4%;
+}
+.projects p{
+    color: #8c9597;
+}
+.projects h2 {
+    color: #545454;
+}
+.projects-all img:hover{
+    cursor: pointer;
+    opacity: .5;
+    transition: .4s;
+}
+.projectsClientsCoffes{
+    height: 144px;
+    background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.services-all{
+    padding-top: 6%; 
+}
+.services{
+    padding-bottom: 6%;
+}
+.services h2{
+    color:#545454;
+}
+.services p{
+    color: #8c9597;
+}
+.services-titles{
+
+}
+.latestNews-all{
+    /* height: 994px; */
+    padding-top: 60px;
+    background-color: #222f36;
+}
+/* .latestNews-all .container{
+    padding: 30px;
+} */
+.lateastNews{
+    color: #ffffff;
+}
+.lateastNews-details p {
+    color: #8c9597;
+}
+/* .lateast-1,.lateast-middle{
+    width: 360px;
+} */
+.lateast-1 img{
+    width: 100%;
+    height: 213px;
+   
+}
+.lateast-middle img{
+    width: 100%;
+    height: 213px;
+}
+.lateastNews-details{ 
+    width: 100%;/* da 3ayz ytzbt fl center mn el margin w ytzbt el resposive */
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-items: space-between;
+    flex-wrap: nowrap;
+}
+.lateast-1{
+    /* width: 25%; */
+    background-color: #ffffff;
+    /* height: 553px; */
+    /* margin-right: 2%; */
+    margin: 1%; 
+    padding: 0px;
+}
+.latestNews{
+    color: #ffffff;
+}
+.latestNews p{
+    color:#8c9597
+}
+.lateast-middle{
+    /* width: 25%; */
+    background-color: #ffffff;
+    /* height: 585px; */
+    /* margin-right: 2%; */
+    margin: 1%;
+    padding: 0px;
+}
+.lateast-caption{
+    padding: 30px;
+}
+.lateast-caption div{
+    margin-left: 10px; 
+}
+.team-all{
+    /* height: 517px; */
+    /* padding-top: 70px; */
+}
+.team-all,.projects{
+    background-image:url(images/pattern.png) ;
+}
+.team h2{
+    color: #545454;
+}
+.team p{
+    color: #8c9597;
+}
+.team,.teamSections{
+    padding-bottom: 6.5%;
+}
+.teamSections p{
+    color: #8c9597;
+}
+.teamSections h4{
+    color: #5e5e5e;
+}
+.team{
+    padding-top: 6.7%;
+}
+.icons i{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    
+   
+    /* border: 1px solid #545454;
+    border-radius: 50%; */
+}
+.markLawrance a, .markLawrance span{
+    color: rgb(241, 139, 109);
+}
+.janeStenton a, .janeStenton span{
+    color: rgb(241, 210, 4);
+}
+.johnSmith a,.johnSmith span{
+    color: rgb(106, 77, 138);
+}
+.markLawrance i{
+   
+    border: 1px solid rgb(241, 139, 109);
+    
+
+}
+.janeStenton i {
+    border: 1px solid rgb(241, 210, 4);
+
+}
+.johnSmith i {
+    border: 1px solid rgb(106, 77, 138);
+
+}
+.contuctUs-all{
+    /* height: 716px;  */
+    color:#8c9597;
+}
+.address{
+    padding-bottom: 4.5%;
+}
+.contuctUs-all h6{
+    color: #f1d204;
+    /* border-right: 1px solid #e1e1e1; */
+    /* padding-right: 10px;    */
+}
+.contuctUs-all h2{
+    color: #545454;
+    padding-top: 4%;
+    padding-bottom: 6.5%;
+    /* padding-bottom: 65px; */
+}
+.contuctUs-all input{
+    border: 1px solid #e1e1e1;
+    background-color: #fcfcfc;
+    padding: 5px;
+}
+.contuctUs-all span{
+    /* padding-left: 0px; */
+}
+.contactUs-icons i{
+    padding: 2%;
+    /* float: right; */
+    
+}
+.contactUs-icons i:hover{
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+.inputs{
+    width: 100%;  
+}
+.first-footer{
+    background-color: #292825;  
+}
+.second-footer{
+    height: 78px;
+    background-color:#242320 ;
+    color: #8c9597;
+}
+.second-footer p{
+    height: 78px;
+}
+table th,.second-footer span{
+    color: #ffffff;
+}
+table{
+    border-spacing: 0px !important; 
+}
+table td{
+    line-height: 14px;
+}
+
+th{
+    
+    font-size: 23px;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+

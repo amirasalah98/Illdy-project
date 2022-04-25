@@ -1,0 +1,64 @@
+.Testimonials-all{
+    color: #ffffff;
+    padding-top: 3%;
+    height: 637px;
+    background-image: url(https://colorlibhub.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg);
+
+}
+.Testimonials{
+    margin: auto;
+
+    position: relative;
+}
+.Testimonials div{
+    padding-top: 3%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+.Testimonials aside{
+    position: absolute;
+    top: 530px;
+   
+    
+    width: 100%;
+    
+}
+.Testimonials div.active{
+    opacity: 1;
+}
+.Testimonials blockquote{
+    /* padding-top: 40px; */
+    margin: 4% auto;
+    padding: 3%;
+    width: 90%;
+    background-color: #6a4d8a;
+}
+.indicators{
+    width: 100%;
+
+}
+.indicators ul{
+    
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    
+}
+.indicators ul li{
+    display: inline-block;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 7.5px ;  
+    text-align: center; 
+}
+.indicators ul li.active {
+    background-color: #f1d204;
+    border:1px solid #fff;
+}
