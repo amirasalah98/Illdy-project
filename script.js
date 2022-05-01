@@ -60,3 +60,8 @@ for (var i = 0; i < paginationsBullets.length; i++) {
     });
   
   }
+
+//   const dates = ['Mar 16 2017', 'Jan 22 2021', 'Dec 31 2000'];
+//   newDates=dates.sort();
+// console.log(dates);
+// console.log(newDates)
