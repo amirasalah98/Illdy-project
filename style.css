@@ -21,6 +21,7 @@ li{
 }
 .cleanSlickPixelperfect, .services, .team, .projects, .Testimonials,.projectsClientsCoffes,.latestNews{
 text-align: center;
+cursor: grab;
 }
 
 .about{

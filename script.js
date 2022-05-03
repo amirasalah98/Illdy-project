@@ -15,53 +15,39 @@ var currentSlide = 1;
 
 var paginationElement = document.createElement('ul');
 paginationElement.setAttribute('id', 'pagination-ul');
-
 for (var i = 1; i <= slidesCount; i++) {
-
     var paginationItem = document.createElement('li');
     paginationItem.setAttribute('data-index', i);
-//     paginationItem.appendChild(document.createTextNode(i));
     paginationElement.appendChild(paginationItem);
-  
+    // slidesCount[i].onclick = function (){
+    // currentSlide = parseInt(this.getAttribute('data-index'))[i]+1;
+    //   theChecker();
+    // }
   }
   document.getElementById('indicators').appendChild(paginationElement);
 var paginationCreatedUl = document.getElementById('pagination-ul');
 var paginationsBullets = Array.from(document.querySelectorAll('#pagination-ul li'));
 for (var i = 0; i < paginationsBullets.length; i++) {
-
-    paginationsBullets[i].onclick = function () {
-  
+    paginationsBullets[i].onclick = function () {  
       currentSlide = parseInt(this.getAttribute('data-index'));
-  
       theChecker();
-  
     }
-
   }
-  theChecker();
 
+ 
+  theChecker();
+  
   function theChecker() {
     removeAllActive();
-
     testimonialsItems[currentSlide - 1].classList.add('active');
     paginationCreatedUl.children[currentSlide - 1].classList.add('active');
-
   }
+  
   function removeAllActive() {
     testimonialsItems.forEach(function (img) {
-  
       img.classList.remove('active');
-  
     });
     paginationsBullets.forEach(function (bullet) {
-  
       bullet.classList.remove('active');
-  
     });
-  
   }
-
-//   const dates = ['Mar 16 2017', 'Jan 22 2021', 'Dec 31 2000'];
-//   newDates=dates.sort();
-// console.log(dates);
-// console.log(newDates)
